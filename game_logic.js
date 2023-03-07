@@ -66,7 +66,7 @@ function PlayerhasWon(){
         }
     }
     return false;
-} 
+}
 
 restart.addEventListener('click', restartgame);
 
