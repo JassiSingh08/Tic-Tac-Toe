@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --orange: #F2C14E;
+    --winning-blocks: #2d414b;
+}
+body{
+    background-color:#37505c;
+    color: var(--orange);
+    height: 100vh;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+
+}
+
+#gameboard{
+    display: flex;
+    width: 450px;
+    flex-wrap: wrap;
+    align-items: center; 
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.box{
+    border-right: 5px solid;
+    border-bottom: 5px solid;
+    height: 130px;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+}
+
+.box:nth-child(3n){
+    border-right: none;
+}
+
+.box:nth-child(6) ~ .box{
+    border-bottom: none;
+}
+
+
+button{
+    padding: 10px 15px;
+    border-radius: 10px;
+    border-color: var(--orange);
+    background-color: var(--orange);
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+} 
+
+#turn{
+    opacity: 0;
+}
