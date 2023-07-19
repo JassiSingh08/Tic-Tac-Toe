@@ -1,6 +1,6 @@
 # Tic-Tac-Toe
 
-🔊 INTRODUCTION:
+🔊 INTRODUCTION :
 
 Tic Tac Toe or may known as Cross and zeros.
 
